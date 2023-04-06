@@ -47,6 +47,9 @@ while True:
         continue
     print(f"{num1}{op}{num2} = {ret}")  # 연산 결과를 출력
 print("Exit Program.")
+<<<<<<< HEAD
 
 
 # %%
+=======
+>>>>>>> 9f6889505b294b27c46b781937b1f280051e27ce
