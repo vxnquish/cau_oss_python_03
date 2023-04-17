@@ -17,9 +17,10 @@
 # arithmetic_ops는 연산에 관한 함수로, 내부에서 사용자에게 정수 2개를 입력받은 뒤
 # 전달받은 매개함수로 정수를 전달한다
 
+# %% 
 def arithmetic_ops(op):
-    num1 = int(input("Input 1st Number:"))
-    num2 = int(input("Input 2nd Number:"))
+    num1 = int(input("Input 1st Number:" + " "))
+    num2 = int(input("Input 2nd Number:" + " "))
     return num1, num2, op(num1, num2)
 
 # +와 -는 함수로 정의한다
@@ -29,7 +30,7 @@ def sub(num1, num2):
     return num1-num2
 
 while True:
-    op = input("Input Operation:")
+    op = input("Input Operation:" + " ")
     if op == "end": #종료
         break
     elif op == "+": # 합
@@ -45,5 +46,6 @@ while True:
     else: # 오류
         print("Invalid operation.")
         continue
-    print(f"{num1}{op}{num2} = {ret}")  # 연산 결과를 출력
+    print(f"{num1} {op} {num2} = {ret}")  # 연산 결과를 출력
 print("Exit Program.")
+# %%
