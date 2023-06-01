@@ -31,3 +31,5 @@ try:
     print(ellipse)
 except ValueError:
     print("0 이하의 값은 입력할 수 없습니다.")
+    
+# %%
